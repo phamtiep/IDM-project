@@ -3,10 +3,10 @@ package dataaccess
 import (
 	"github.com/google/wire"
 
-	"github.com/tranHieuDev23/GoLoad/internal/dataaccess/cache"
-	"github.com/tranHieuDev23/GoLoad/internal/dataaccess/database"
-	"github.com/tranHieuDev23/GoLoad/internal/dataaccess/file"
-	"github.com/tranHieuDev23/GoLoad/internal/dataaccess/mq"
+	"github.com/phamtiep/IDM-project/internal/dataaccess/cache"
+	"github.com/phamtiep/IDM-project/internal/dataaccess/database"
+	"github.com/phamtiep/IDM-project/internal/dataaccess/file"
+	"github.com/phamtiep/IDM-project/internal/dataaccess/mq"
 )
 
 var WireSet = wire.NewSet(

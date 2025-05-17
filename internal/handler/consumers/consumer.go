@@ -6,8 +6,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/tranHieuDev23/GoLoad/internal/dataaccess/mq/consumer"
-	"github.com/tranHieuDev23/GoLoad/internal/dataaccess/mq/producer"
+	"github.com/phamtiep/IDM-project/internal/dataaccess/mq/consumer"
+	"github.com/phamtiep/IDM-project/internal/dataaccess/mq/producer"
 )
 
 type Root interface {

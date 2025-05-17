@@ -8,8 +8,8 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	go_load "github.com/tranHieuDev23/GoLoad/internal/generated/go_load/v1"
-	"github.com/tranHieuDev23/GoLoad/internal/utils"
+	go_load "github.com/phamtiep/IDM-project/internal/generated/go_load/v1"
+	"github.com/phamtiep/IDM-project/internal/utils"
 )
 
 var (

@@ -1,4 +1,4 @@
-module github.com/tranHieuDev23/GoLoad
+module github.com/phamtiep/IDM-project
 
 go 1.21.5
 

@@ -3,10 +3,10 @@ package handler
 import (
 	"github.com/google/wire"
 
-	"github.com/tranHieuDev23/GoLoad/internal/handler/consumers"
-	"github.com/tranHieuDev23/GoLoad/internal/handler/grpc"
-	"github.com/tranHieuDev23/GoLoad/internal/handler/http"
-	"github.com/tranHieuDev23/GoLoad/internal/handler/jobs"
+	"github.com/phamtiep/IDM-project/internal/handler/consumers"
+	"github.com/phamtiep/IDM-project/internal/handler/grpc"
+	"github.com/phamtiep/IDM-project/internal/handler/http"
+	"github.com/phamtiep/IDM-project/internal/handler/jobs"
 )
 
 var WireSet = wire.NewSet(

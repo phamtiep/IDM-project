@@ -10,7 +10,7 @@ import (
 
 	"github.com/doug-martin/goqu/v9"
 
-	"github.com/tranHieuDev23/GoLoad/internal/utils"
+	"github.com/phamtiep/IDM-project/internal/utils"
 )
 
 var (

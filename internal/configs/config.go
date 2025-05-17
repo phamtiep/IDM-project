@@ -6,7 +6,7 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/tranHieuDev23/GoLoad/configs"
+	"github.com/phamtiep/IDM-project/configs"
 )
 
 type ConfigFilePath string

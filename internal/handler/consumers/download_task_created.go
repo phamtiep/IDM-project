@@ -5,9 +5,9 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/tranHieuDev23/GoLoad/internal/dataaccess/mq/producer"
-	"github.com/tranHieuDev23/GoLoad/internal/logic"
-	"github.com/tranHieuDev23/GoLoad/internal/utils"
+	"github.com/phamtiep/IDM-project/internal/dataaccess/mq/producer"
+	"github.com/phamtiep/IDM-project/internal/logic"
+	"github.com/phamtiep/IDM-project/internal/utils"
 )
 
 type DownloadTaskCreated interface {

@@ -3,7 +3,7 @@ package jobs
 import (
 	"context"
 
-	"github.com/tranHieuDev23/GoLoad/internal/logic"
+	"github.com/phamtiep/IDM-project/internal/logic"
 )
 
 type UpdateDownloadingAndFailedDownloadTaskStatusToPending interface {

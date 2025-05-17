@@ -7,7 +7,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/tranHieuDev23/GoLoad/internal/utils"
+	"github.com/phamtiep/IDM-project/internal/utils"
 )
 
 const (

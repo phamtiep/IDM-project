@@ -15,10 +15,10 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/tranHieuDev23/GoLoad/internal/configs"
-	"github.com/tranHieuDev23/GoLoad/internal/dataaccess/cache"
-	"github.com/tranHieuDev23/GoLoad/internal/dataaccess/database"
-	"github.com/tranHieuDev23/GoLoad/internal/utils"
+	"github.com/phamtiep/IDM-project/internal/configs"
+	"github.com/phamtiep/IDM-project/internal/dataaccess/cache"
+	"github.com/phamtiep/IDM-project/internal/dataaccess/database"
+	"github.com/phamtiep/IDM-project/internal/utils"
 )
 
 const (

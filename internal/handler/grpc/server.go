@@ -8,9 +8,9 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 
-	"github.com/tranHieuDev23/GoLoad/internal/configs"
-	go_load "github.com/tranHieuDev23/GoLoad/internal/generated/go_load/v1"
-	"github.com/tranHieuDev23/GoLoad/internal/utils"
+	"github.com/phamtiep/IDM-project/internal/configs"
+	go_load "github.com/phamtiep/IDM-project/internal/generated/go_load/v1"
+	"github.com/phamtiep/IDM-project/internal/utils"
 )
 
 type Server interface {

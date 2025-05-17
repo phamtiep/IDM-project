@@ -5,7 +5,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/tranHieuDev23/GoLoad/internal/configs"
+	"github.com/phamtiep/IDM-project/internal/configs"
 )
 
 func getZapLoggerLevel(level string) zap.AtomicLevel {

@@ -8,9 +8,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/tranHieuDev23/GoLoad/internal/configs"
-	go_load "github.com/tranHieuDev23/GoLoad/internal/generated/go_load/v1"
-	"github.com/tranHieuDev23/GoLoad/internal/logic"
+	"github.com/phamtiep/IDM-project/internal/configs"
+	go_load "github.com/phamtiep/IDM-project/internal/generated/go_load/v1"
+	"github.com/phamtiep/IDM-project/internal/logic"
 )
 
 const (

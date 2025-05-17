@@ -10,11 +10,11 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/tranHieuDev23/GoLoad/internal/configs"
-	go_load "github.com/tranHieuDev23/GoLoad/internal/generated/go_load/v1"
-	handlerGRPC "github.com/tranHieuDev23/GoLoad/internal/handler/grpc"
-	"github.com/tranHieuDev23/GoLoad/internal/handler/http/servemuxoptions"
-	"github.com/tranHieuDev23/GoLoad/internal/utils"
+	"github.com/phamtiep/IDM-project/internal/configs"
+	go_load "github.com/phamtiep/IDM-project/internal/generated/go_load/v1"
+	handlerGRPC "github.com/phamtiep/IDM-project/internal/handler/grpc"
+	"github.com/phamtiep/IDM-project/internal/handler/http/servemuxoptions"
+	"github.com/phamtiep/IDM-project/internal/utils"
 )
 
 const (

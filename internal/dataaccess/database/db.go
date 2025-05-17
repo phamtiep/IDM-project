@@ -9,7 +9,7 @@ import (
 	"github.com/doug-martin/goqu/v9"
 	"go.uber.org/zap"
 
-	"github.com/tranHieuDev23/GoLoad/internal/configs"
+	"github.com/phamtiep/IDM-project/internal/configs"
 
 	_ "github.com/doug-martin/goqu/v9/dialect/mysql" // Import MySQL goqu dialect
 	_ "github.com/go-sql-driver/mysql"               // Import MySQL driver

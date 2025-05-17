@@ -8,7 +8,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/tranHieuDev23/GoLoad/internal/configs"
+	"github.com/phamtiep/IDM-project/internal/configs"
 )
 
 type Hash interface {

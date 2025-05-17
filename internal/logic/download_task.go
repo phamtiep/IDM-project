@@ -13,12 +13,12 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/tranHieuDev23/GoLoad/internal/configs"
-	"github.com/tranHieuDev23/GoLoad/internal/dataaccess/database"
-	"github.com/tranHieuDev23/GoLoad/internal/dataaccess/file"
-	"github.com/tranHieuDev23/GoLoad/internal/dataaccess/mq/producer"
-	go_load "github.com/tranHieuDev23/GoLoad/internal/generated/go_load/v1"
-	"github.com/tranHieuDev23/GoLoad/internal/utils"
+	"github.com/phamtiep/IDM-project/internal/configs"
+	"github.com/phamtiep/IDM-project/internal/dataaccess/database"
+	"github.com/phamtiep/IDM-project/internal/dataaccess/file"
+	"github.com/phamtiep/IDM-project/internal/dataaccess/mq/producer"
+	go_load "github.com/phamtiep/IDM-project/internal/generated/go_load/v1"
+	"github.com/phamtiep/IDM-project/internal/utils"
 )
 
 const (

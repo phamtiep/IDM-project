@@ -8,12 +8,12 @@ package wiring
 import (
 	"github.com/google/wire"
 
-	"github.com/tranHieuDev23/GoLoad/internal/app"
-	"github.com/tranHieuDev23/GoLoad/internal/configs"
-	"github.com/tranHieuDev23/GoLoad/internal/dataaccess"
-	"github.com/tranHieuDev23/GoLoad/internal/handler"
-	"github.com/tranHieuDev23/GoLoad/internal/logic"
-	"github.com/tranHieuDev23/GoLoad/internal/utils"
+	"github.com/phamtiep/IDM-project/internal/app"
+	"github.com/phamtiep/IDM-project/internal/configs"
+	"github.com/phamtiep/IDM-project/internal/dataaccess"
+	"github.com/phamtiep/IDM-project/internal/handler"
+	"github.com/phamtiep/IDM-project/internal/logic"
+	"github.com/phamtiep/IDM-project/internal/utils"
 )
 
 var WireSet = wire.NewSet(

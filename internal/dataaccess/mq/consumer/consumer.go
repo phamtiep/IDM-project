@@ -9,8 +9,8 @@ import (
 	"github.com/IBM/sarama"
 	"go.uber.org/zap"
 
-	"github.com/tranHieuDev23/GoLoad/internal/configs"
-	"github.com/tranHieuDev23/GoLoad/internal/utils"
+	"github.com/phamtiep/IDM-project/internal/configs"
+	"github.com/phamtiep/IDM-project/internal/utils"
 )
 
 type HandlerFunc func(ctx context.Context, queueName string, payload []byte) error

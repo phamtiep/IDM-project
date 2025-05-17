@@ -6,8 +6,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/tranHieuDev23/GoLoad/internal/configs"
-	"github.com/tranHieuDev23/GoLoad/internal/wiring"
+	"github.com/phamtiep/IDM-project/internal/configs"
+	"github.com/phamtiep/IDM-project/internal/wiring"
 )
 
 var (
